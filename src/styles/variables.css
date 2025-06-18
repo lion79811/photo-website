@@ -1,0 +1,25 @@
+:root {
+  /* 颜色变量 */
+  --primary: #55A99C;
+  --secondary: #F57373;
+  --background: #F8F4EF;
+  --text: #4C4C4C;
+  --accent: #60B7A5;
+  
+  /* 字体变量 */
+  --font-primary: 'Source Han Sans', 'Noto Sans SC', sans-serif;
+  --font-secondary: 'Georgia', serif;
+  
+  /* 间距变量 */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  
+  /* 边框半径 */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+}
