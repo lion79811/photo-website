@@ -4,7 +4,7 @@ import { Download } from "lucide-react";
 import { useAdmin } from "@/context/AdminContext";
 import { texts } from "@/config/texts";
 
-const VisualManagementPage = () => {
+export default function VisualManagementPage() {
   const { isAdmin } = useAdmin();
   const [activeTab, setActiveTab] = useState('cases');
   
@@ -232,7 +232,7 @@ const VisualManagementPage = () => {
                 rows="3"
                 placeholder="输入评价内容"
                 className="w-full p-2 border border-gray-300 rounded-md"
-              />
+              ></textarea>  {/* 修复点1 */}
             </div>
             
             <div className="pt-4">
@@ -283,7 +283,7 @@ const VisualManagementPage = () => {
                 rows="3"
                 placeholder="输入服务描述"
                 className="w-full p-2 border border-gray-300 rounded-md"
-              />
+              ></textarea>  {/* 修复点2 */}
             </div>
             
             <div className="pt-4">
@@ -335,6 +335,4 @@ const VisualManagementPage = () => {
       </div>
     </div>
   );
-};
-
-export default VisualManagementPage;
+}
